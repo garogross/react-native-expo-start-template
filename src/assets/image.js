@@ -1,0 +1,1 @@
+export const defaultAvaImg = require('./images/defaultAva.png')

@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Memo-Dic",
+    "slug": "Memo-Dic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/loader/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./src/assets/images/loader/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#141414",
+      "label": "KHG CHAT"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./src/assets/images/loader/favicon.png"
+    },
+    "android": {
+      "permissions": [
+        "RECORD_AUDIO",
+        "NOTIFICATIONS"
+      ],
+      "useNextNotificationsApi": true,
+      "package": "com.project.app",
+      "versionCode": 32
+    },
+    "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.project.app",
+      "UIBackgroundModes": [
+        "audio"
+      ],
+      "infoPlist": {
+        "NSDocumentsFolderUsageDescription": "To enable document sharing functionality, we need your permission to access your documents.",
+        "NSPhotoLibraryAddUsageDescription": "We require your photo access permissions to let you share images and videos within the app.",
+        "NSContactsUsageDescription": "We need access to your contacts so that you can send them messages through our app, we do not store your contacts with us and do not publish them, for more information you can see the privacy policy",
+        "NSCameraUsageDescription": "For sharing images and videos, we need access to your camera.",
+        "NSPhotoLibraryUsageDescription": "To enable image and video sharing, we need your permission to access your photos.",
+        "NSMicrophoneUsageDescription": "Your microphone access permission is needed for voice functionalities within the app."
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-contacts"
+    ]
+  }
+}
